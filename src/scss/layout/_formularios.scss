@@ -1,0 +1,88 @@
+.elemento{
+    label{
+        color: $blanco;
+        display: flex;
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    .imagenes{
+        max-width: 7%;
+    }
+
+    input{
+        width: 100%;
+        padding: 1rem 0;
+        color: $blanco;
+        background: transparent;
+        border: none;
+        border-bottom: .1rem solid $blanco;
+        margin-bottom: 1rem;
+    }
+}
+
+.perfil{
+    max-width: 40%;
+    padding-top: 2rem;
+    margin: 0 0 0 20rem;
+}
+
+fieldset{
+    border: none;
+}
+
+.centrado{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+.centrado2{
+    margin-left: 26.5rem;
+}
+
+.formulario2{
+    .elemento{
+        label{
+            color: $blanco;
+            display: flex;
+            font-weight: bold;
+            font-size: 2.5rem;
+        }
+    
+        .imagenes{
+            max-width: 10%;
+        }
+    
+        input{
+            width: 70%;
+            padding: 1rem 0;
+            color: $blanco;
+            background: transparent;
+            border: none;
+            border-bottom: .1rem solid $blanco;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.primero2{
+    padding: 10rem 0 3rem 8rem;
+    font-size: 7rem;
+}
+.primero3{
+    padding: 10rem 0 3rem 0;
+    font-size: 6rem;
+    font-weight: normal;
+}
+
+.centrado3{
+    margin: 1rem 0 3rem 14rem;
+}
+.centrado4{
+    margin: 1rem 0 3rem 12rem;
+}
+
+.blanco{
+    color: $blanco;
+    margin-left: 16rem;
+    text-decoration: underline;
+}
