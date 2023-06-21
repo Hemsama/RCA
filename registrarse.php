@@ -1,5 +1,6 @@
 <?php
-    include './includes/templates/header_login.php'
+    require 'includes/funciones.php';
+    incluirTemplate('header_login');
 ?>
 
     <main class="registrarse">
@@ -24,5 +25,5 @@
     </main>
 
 <?php 
-    include './includes/templates/footer.php'
+    incluirTemplate('footer');
 ?>

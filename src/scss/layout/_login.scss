@@ -1,8 +1,14 @@
 .no-webp .login {
-    background-image: url(../img/fondo2.jpg);
+    background-image: url(../img/responsive2.jpg);
+    @include tablet {
+        background-image: url(../img/fondo2.jpg);
+    }
 }
 .webp .login {
-    background-image: url(../img/fondo2.webp);
+    background-image: url(../img/responsive2.webp);
+    @include tablet {
+        background-image: url(../img/fondo2.webp);
+    }
 }
 
 .login{

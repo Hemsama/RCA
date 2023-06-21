@@ -1,7 +1,7 @@
 <?php
-    include './includes/templates/header_login.php'
+    require 'includes/funciones.php';
+    incluirTemplate('header_login');
 ?>
-
     <main class="login">
         <div class="contenedor3">
             <img class="perfil" src="build/img/perfil.webp" alt="Logotipo de usuario">
@@ -25,5 +25,5 @@
     </main>
 
 <?php 
-    include './includes/templates/footer.php'
+    incluirTemplate('footer');
 ?>

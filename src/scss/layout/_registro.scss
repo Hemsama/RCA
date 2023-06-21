@@ -1,6 +1,12 @@
 .no-webp .registrarse {
-    background-image: url(../img/registro.jpg);
+    background-image: url(../img/responsive3.jpg);
+    @include tablet {
+        background-image: url(../img/registro.jpg);
+    }
 }
 .webp .registrarse {
-    background-image: url(../img/registro.webp);
+    background-image: url(../img/responsive3.webp);
+    @include tablet {
+        background-image: url(../img/registro.webp);
+    }
 }
